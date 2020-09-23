@@ -1,0 +1,44 @@
+.container{
+    margin: auto;
+}
+
+#main-header{
+    text-align: center;
+    background-image: url(../css/Voorpagina.jpg);
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0px;
+}
+
+#navbar{
+    background-color: turquoise;
+    position: fixed;
+    top: 20;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+#navbar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: black;
+    color: white;
+}
+
