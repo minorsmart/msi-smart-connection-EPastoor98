@@ -61,7 +61,7 @@ article#main-col{
 
 .slideshow img {
     position:absolute;
-    animation:slideshow 21s infinite;
+    animation:slideshow 20s infinite;
     opacity:0;
     widows: 25%;
     height:100%;
@@ -75,9 +75,8 @@ article#main-col{
     }
 }
 
-.slideshow img:nth-child(4){animation-delay:0s;}
-.slideshow img:nth-child(1){animation-delay:7s;}
-.slideshow img:nth-child(2){animation-delay:14s;}
+.slideshow img:nth-child(1){animation-delay:0s;}
+.slideshow img:nth-child(2){animation-delay:5s;}
 
 #main{
     padding-top:60px;
