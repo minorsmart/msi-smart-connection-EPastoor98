@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="css/pf.css">
+
+ </head>
+<body>
+    <header>
+            <nav>
+             <div id="navbar2">
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="start.html">SMART START</a></li>
+                <li><a href="business.html">SMART BUSINESS</a></li>
+                <li class= "current"><a href="connection.html">SMART CONNECTION</a></li>
+                <li><a href="technology.html">SMART TECHNOLOGY</a></li>
+                <li><a href="project.html">SMART PROJECT</a></li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+    </header>
+    
+    <br><br>
+</script>
+</article>
+</section> 
+<br>
+<hr>
+<section id="main3a">
+<article id="main-col2">
+  <div id="main-title3a">
+    <h1>
+        Covid-19 numbers in the 
+        <div id="land"></div>
+    </h1>
+  </div>
+  <br>
+        Datum:
+        <div id="datum"></div>
+        <br>
+        Nieuwe Covid-19 aantallen in Nederland
+        <div id="Newpositives"></div>
+        Totale Covid-aantallen in Nederland
+        <div id="Totalpositives"></div>
+        <br>
+        Nieuwe Covid-19 doden
+        <div id="Newdeaths"></div>
+        Totaal aantal Covid-19 doden
+        <div id="Totaldeaths"></div>
+    </div>
+    <br>
+
+    <script> lang="text/javascript">
+        // Future javascript
+     fetch('https://api.covid19api.com/summary')
+      .then(function(resp) { return resp.json() }) // Convert datat to json
+      .then(function(data) {
+      console.log(data) ;
+      console.log(data.Countries[120].Country);
+      console.log(data.Countries[120].TotalDeaths) ;
+      document.getElementById("land").innerHTML = (data.Countries[120].Country);
+      document.getElementById("datum").innerHTML = (data.Countries[120].Date);
+      document.getElementById("Newpositives").innerHTML = (data.Countries[120].NewConfirmed);
+      document.getElementById("Totalpositives").innerHTML = (data.Countries[120].TotalConfirmed);
+      document.getElementById("Newdeaths").innerHTML = (data.Countries[120].NewDeaths);
+      document.getElementById("Totaldeaths").innerHTML = (data.Countries[120].TotalDeaths);
+      })
+      .catch(function() { // catch any errors
+      }) ;
+    </script>
+</article>
+</section>
+
+</body>
+</html>

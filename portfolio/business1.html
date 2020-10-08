@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="CSS/pf.css">
+
+</head>
+
+
+<body>
+    <header>
+        <nav>
+       <div id="navbar2">
+       <ul>
+       <li><a href="index.html">HOME</a></li>
+       <li><a href="start.html">SMART START</a></li>
+       <li  class= "current"><a href="business.html">SMART BUSINESS</a></li>
+       <li><a href="connection.html">SMART CONNECTION</a></li>
+       <li><a href="technology.html">SMART TECHNOLOGY</a></li>
+       <li><a href="project.html">SMART PROJECT</a></li>
+       </ul>
+       </div>
+      </nav>
+     </div>
+    </header>
+
+    <br>
+    <section id= "main2">
+        <article id="main-col2">
+          <div id="main-title2">
+             <h3>Week 1</h3>
+           </div>
+            <p>
+             In deze week ging het erover waarom ik deze minor heb gekozen, wat ik uit deze minor wil halen, 
+             wat succes voor mij is en wat dit succes eventueel in de weg zou kunnen staan. 
+             Allereerst is er een Persona Profile en Value Map gemaakt, 
+             en op basis hiervan is een vlog gemaakt.     
+            </p>
+            <br>
+            <div id="image">
+                <img src="CSS/valuemap2.jpg">
+            </div>
+        </article>
+    </section>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar2").style.top = "0";
+        } else {
+            document.getElementById("navbar2").style.top = "-80px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+
+    </script>
+
+</body>
+</html>

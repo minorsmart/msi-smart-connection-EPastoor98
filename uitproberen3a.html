@@ -1,4 +1,9 @@
-header ul{
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        header ul{
     margin:0;
     padding:0;
 }
@@ -167,55 +172,66 @@ article#main-col2{
     color: rgb(34, 34, 80);
 }
 
-.single-blog{
-    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0,2);
-    padding: 10px;
-    margin-top:30px;
-    background-color: #fff;
-  }
 
-  .single-blog img{
-    width: 100%;
-  }
 
-  .blog-meta{
-    font-size: 14px;
-    margin-bottom: 2px;
-  }
 
-  .single-blog span{
-    float: right;
-    font-size: 12px;
-    color: cornflowerblue;
-  }
+    </style>
 
-  .blog-text{
-    font-size: 14px;
-    text-align: justify;
-  }
+</head>
+<body>
+    <header>
+        <nav>
+       <div id="navbar2">
+       <ul>
+       <li><a href="index.html">HOME</a></li>
+       <li><a href="start.html">SMART START</a></li>
+       <li><a href="business.html">SMART BUSINESS</a></li>
+       <li class= "current"><a href="connection.html">SMART CONNECTION</a></li>
+       <li><a href="technology.html">SMART TECHNOLOGY</a></li>
+       <li><a href="project.html">SMART PROJECT</a></li>
+       </ul>
+       </div>
+   </nav>
+</div>
+</header>
 
-  .single-blog h2{
-    margin-top: 10px;
-    font-size: 16px;
-    color: #007bff;
-  }
+<br>
+<section id= "main3">
+<article id="main-col3">
+<div id="main-title3">
+ <h1>Het weer in Arnhem</h1>
+</div>
+<br>
+ <div id="weather">
+     <div id="description"></div>
+     <h1 id="temp"></h1>
+     <div id="location"></div>
+ </div>
+<script lang="text/javascript">
+ function weatherBalloon( cityID ) {
+var key = 'ec00d34ef6178c63b16cccc7317a8877';
+ fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID+ '&appid=' + key)  
+ .then(function(resp) { return resp.json() }) // Convert data to json
+ .then(function(data) {
+     drawWeather(data); // Call drawWeather
+ })
+ .catch(function() {
+     // catch any errors
+ });
+ }
 
-  .single-blog a{
-    text-decoration: none;
-  }
+ window.onload = function() {
+ weatherBalloon( 2759661 );
+ }
 
-  .read-more-btn{
-    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
-    padding: 5px 12px 8px;
-    border-radius: 20px;
-    line-height: 20px;
-    font-size: 14px;
-    color: #fff;
-    border: none! important;
-  }
+function drawWeather( d ) {
+var celcius = Math.round(parseFloat(d.main.temp)-273.15);
+var fahrenheit = Math.round(((parseFloat(d.main.temp)-273.15)*1.8)+32); 
 
-  .read-more-btn:hover{
-    background-image: linear-gradient(to right, #006417, #00b128);
-    text-decoration: none;
-    color: #fff;
-  }
+document.getElementById('description').innerHTML = d.weather[0].description;
+document.getElementById('temp').innerHTML = celcius + '&deg;';
+document.getElementById('location').innerHTML = d.name;
+}
+</body>
+
+</html>
