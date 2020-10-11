@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mijn Portfolio</title>
     <link rel="stylesheet" href="CSS/pf.css">
+    <script src="pf.js"></script>
 
 </head>
 
@@ -27,7 +28,6 @@
      </div>
     </header>
 
-    <br>
     <section id= "main2">
         <article id="main-col2">
           <div id="main-title2">
@@ -39,26 +39,23 @@
              Allereerst is er een Persona Profile en Value Map gemaakt, 
              en op basis hiervan is een vlog gemaakt.     
             </p>
-            <br>
+            <p>
+                Persone Profile en Value Map:
             <div id="image">
                 <img src="CSS/valuemap2.jpg">
             </div>
+            </p>
+            <br>
+            <p>
+                Vlog:
+            <div id+"video"></div>
+                <video width="320" height="240" controls> 
+                <source src="CSS/vlog.mp4"></video>    
+            </div>            
+            </p>
+            <br>
         </article>
     </section>
-
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar2").style.top = "0";
-        } else {
-            document.getElementById("navbar2").style.top = "-80px";
-        }
-        prevScrollpos = currentScrollPos;
-        }
-
-    </script>
 
 </body>
 </html>
