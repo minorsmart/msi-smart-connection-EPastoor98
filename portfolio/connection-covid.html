@@ -59,14 +59,14 @@
       .then(function(resp) { return resp.json() }) // Convert datat to json
       .then(function(data) {
       console.log(data) ;
-      console.log(data.Countries[120].Country);
-      console.log(data.Countries[120].TotalDeaths) ;
-      document.getElementById("land").innerHTML = (data.Countries[120].Country);
-      document.getElementById("datum").innerHTML = (data.Countries[120].Date);
-      document.getElementById("Newpositives").innerHTML = (data.Countries[120].NewConfirmed);
-      document.getElementById("Totalpositives").innerHTML = (data.Countries[120].TotalConfirmed);
-      document.getElementById("Newdeaths").innerHTML = (data.Countries[120].NewDeaths);
-      document.getElementById("Totaldeaths").innerHTML = (data.Countries[120].TotalDeaths);
+      console.log(data.Countries[121].Country);
+      console.log(data.Countries[121].TotalDeaths) ;
+      document.getElementById("land").innerHTML = (data.Countries[121].Country);
+      document.getElementById("datum").innerHTML = (data.Countries[121].Date);
+      document.getElementById("Newpositives").innerHTML = (data.Countries[121].NewConfirmed);
+      document.getElementById("Totalpositives").innerHTML = (data.Countries[121].TotalConfirmed);
+      document.getElementById("Newdeaths").innerHTML = (data.Countries[121].NewDeaths);
+      document.getElementById("Totaldeaths").innerHTML = (data.Countries[121].TotalDeaths);
       })
       .catch(function() { // catch any errors
       }) ;
@@ -76,9 +76,9 @@
     
 <a href="connection.html" class="go-back-btn"><i class="fa fa-home"></i> Ga terug naar 'Smart Connection'</a>
 
-<a href="connection-weer.html" class="go-back-btn">Ga terug naar vorig artikel</a>
+<a href="connection-weer.html" class="go-back-btn">Ga terug naar vorige pagina</a>
 
-<a href="start3.html" class="go-forward-btn">Ga naar volgend artikel</a>
+<a href="start3.html" class="go-forward-btn">Ga naar volgende pagina</a>
 
 <br><br>
 </article>
