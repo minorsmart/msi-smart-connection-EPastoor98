@@ -176,37 +176,37 @@ article#main-col2{
     background-color: #fff;
   }
 
-  .single-blog img{
+.single-blog img{
     width: 100%;
   }
 
-  .blog-meta{
+.blog-meta{
     font-size: 14px;
     margin-bottom: 2px;
   }
 
-  .single-blog span{
+.single-blog span{
     float: right;
     font-size: 12px;
     color: grey;
   }
 
-  .blog-text{
+.blog-text{
     font-size: 14px;
     text-align: justify;
   }
 
-  .single-blog h2{
+.single-blog h2{
     margin-top: 10px;
     font-size: 16px;
     color: black;
   }
 
-  .single-blog a{
+.single-blog a{
     text-decoration: none;
   }
 
-  .go-back-btn{
+.go-back-btn{
     background-image: linear-gradient(to right, #6b0294, #b62ff5);
     padding: 5px 12px 8px;
     border-radius: 20px;
@@ -216,13 +216,13 @@ article#main-col2{
     border: none! important;
   }
 
-  .go-back-btn:hover{
+.go-back-btn:hover{
     background-image: linear-gradient(to right, #640037, #b10085);
     text-decoration: none;
     color: #fff;
   }
 
-  .go-forward-btn{
+.go-forward-btn{
     background-image: linear-gradient(to right, #6b0294, #b62ff5);
     padding: 5px 12px 8px;
     border-radius: 20px;
@@ -232,7 +232,7 @@ article#main-col2{
     border: none! important;
   }
 
-  .go-forward-btn:hover{
+.go-forward-btn:hover{
     background-image: linear-gradient(to right, #640037, #b10085);
     text-decoration: none;
     color: #fff;
