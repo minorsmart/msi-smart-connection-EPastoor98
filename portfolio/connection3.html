@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/pf.css">
     <script src="pf.js"></script>
 
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+
+
  </head>
 <body>
     <header>
@@ -27,6 +31,34 @@
         </div>
     </header>
 
-    <br><br><br><br>
+    <section id= "main2">
+      <article id="main-col2">
+        <div id="main-title2">
+          <h1>Google Maps</h1>
+        </div>
+        <br>
+        <div id="map" style="height: 400px;"></div>
+
+    <script type="text/javascript">
+      window.onload = function() {
+        L.mapquest.key = 'a11etclIxAnkRC9P7UjFSdhzGjOziCBd';
+
+        var map = L.mapquest.map('map', {
+          center: [0, 0],
+          layers: L.mapquest.tileLayer('map'),
+          zoom: 14
+        });
+
+        L.mapquest.geocoding().geocode('Giesbeek, Netherlands');
+      }
+    </script>
+
+
+    <br><br>
+
+<a href="connection.html" class="go-back-btn"><i class="fa fa-home"></i> Ga terug naar 'Smart Connection'</a>
+
+<a href="connection3.html" class="go-back-btn">Ga terug naar vorige pagina</a>
+
 
     
