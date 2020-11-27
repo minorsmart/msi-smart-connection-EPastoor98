@@ -169,11 +169,6 @@ article#main-col2{
     color: rgb(34, 34, 80);
 }
 
-.container{
-	width:50%;
-	margin:auto;
-}
-
 .single-blog{
     box-shadow:0px 0px 20px 1px rgba(0,0,0,0.2);
     padding:10px;
