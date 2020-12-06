@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/pf.css">
+    <script src="pf.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+        <nav>
+       <div id="navbar2">
+       <ul>
+       <li><a href="index.html">HOME</a></li>
+       <li class="current"><a href="start.html">SMART START</a></li>
+       <li><a href="business.html">SMART BUSINESS</a></li>
+       <li><a href="connection.html">SMART CONNECTION</a></li>
+       <li><a href="technology.html">SMART TECHNOLOGY</a></li>
+       <li><a href="project.html">SMART PROJECT</a></li>
+       </ul>
+       </div>
+      </nav>
+     </div>
+</header>
+
+    <section id= "main2">
+        <article id="main-col2">
+          <div id="main-title2">
+             <h2>Smart Teamwork en Netwerk</h2>
+             <p>
+                <h3><b>Teamwork</b></h3>
+             </p>
+             <p>
+                Tijdens de minor heb ik zowel mijn expertise over dingen gedeeld als die van anderen ontvangen. 
+                Er is in verschillende groepen erg gebrainstormd en samengewerkt, om zo tot het beste resultaat te komen voor onder andere opdrachten tijdens workshops, 
+                portfolio competenties en de opmaak/inhoud van het portfolio. 
+                Tevens is er het Smart Project, waarbij ik met een groep voor een bepaalde organisatie zowel op het business vlak als het technologische vlak dingen onderzoek. 
+             </p>
+             <p>
+                 <b>Workshops</b>
+             </p>
+             <p>
+                Tijdens de verschillende lessen en workshops heb ik met medestudenten verschillende opdrachten gemaakt of bepaalde dingen besproken. 
+                Zo was er een van de eerste workshops Business dat ik met een groepje over een bepaald onderwerp heb gepresenteerd (zie Smart Business), 
+                is er verschillende keren gewerkt met m’n projectgroep en heb ik tijdens de workshop van Ilke Oner over het brein met een groepje, 
+                bestaande uit Joep Adema, Mirja Vink en Marc Franken, elkaars antwoorden besproken. Ook heb ik met diezelfde groep tijdens een les 
+                Smart Project de competenties voor het portfolio doorgenomen. Dit werkte naar mijn idee prima, omdat je dan tot andere inzichten komt dan wanneer je steeds met je projectteam aan het werk bent. 
+             </p>
+             <p>
+                 <b>Project</b>
+             </p>
+             <p>
+                Samen met Kai en Bas ben ik bezig met een project voor de organisatie 'SMARTTY'. 
+                Minstens een keer in de week hebben we een gesprek met elkaar en de opdrachtgevers, 
+                om de taken te verdelen of de bevindingen te bespreken. 
+                Meestal presenteren we aan de opdrachtgevers aan de hand van een powerpoint, 
+                wat alles overzichtelijk maakt en dat vind ik erg prettig. 
+                Ook heb ik tijdens verschillende workshops met hen samengewerkt, 
+                om dan als projectgroep iets op te leveren of te laten zien aan de rest van de klas.
+                <img src="CSS/meeting project.png" width="640" height="360">
+             </p>
+             <p>
+                 <b>Buiten lessen en projecten</b>
+             </p>
+             <p>
+                Niet alleen tijdens de workshops of het werken aan het project ben ik in contact met andere studenten, ook daarbuiten worden er kennis en bestanden gedeeld. 
+                Dit alles om ervoor te zorgen dat we niet alleen het beste uit onszelf, maar ook uit anderen halen. 
+                Hieronder worden verschillende voorbeelden genoemd van teamwork, waarbij ik samen met medestudenten of docenten in gesprek ben gegaan.
+             </p>
+             <p>
+                 <i>API</i>
+            </p>
+            <p>
+                Om naast de twee API’s die tijdens de les Connection werden uitgelegd en die ik op mijn site heb gezet, 
+                 ook nog een derde API e hebben voor mijn porfolio, heb ik samen met Mirja Vink geprobeerd dit voor elkaar te krijgen. 
+                 Tijdens deze meeting zijn er verschillende API’s langsgekomen welke we zouden kunnen toepassen, 
+                 en is uiteindelijk gekozen voor een Google Maps API. 
+            </p>
+            <p>
+                In de afbeelding hieronder ziet u aan de linkerkant dat ik een meeting heb met Mirja, 
+                en aan de rechterkant ziet u mijn API code in Visual Studio Code, 
+                waar wij tijdens deze meeting aan gewerkt hebben.
+                <img src="CSS/Meeting api.png" width="640" height="360">
+            </p>
+            <p>
+                <i>Hulp bij portfolio</i>
+            </p>
+            <p>
+                Mijn portfolio werkte intern op mijn eigen laptop prima en het zag eruit hoe ik het voor ogen had. 
+                Echter was dit helaas niet het geval op Github, waar blijkbaar wat dingen mis zijn gegaan. 
+                Tijdens het gesprek met Hubert Bijsterveld voor het toevoegen van een API (zie hierboven), 
+                heb ik ook meteen gevraagd wat er mis zou kunnen zijn met mijn portfolio. 
+                Na dit gesprek deed een deel het wel, maar was nog niet alles hetzelfde als hoe het op m’n eigen laptop staat. 
+            </p>
+            <p>
+                Om hiermee verder te komen, heb ik Marc Franken om hulp gevraagd. 
+                Hij is erg lang bezig geweest met het bekijken van potentiële fouten in mijn code, 
+                maar kwam er helaas niet meteen uit. Hij had er nog graag naar willen kijken, 
+                toen ik plots zelf door had waar het fout ging en ik het probleem op kon lossen. 
+            </p>
+            <p>
+                <i>
+                    Bijpraten over projecten
+                </i>
+            </p>
+            <p>
+                Omdat er door de nieuwe coronamaatregelen geen fysieke workshops meer werden gegeven, ontbrak het contact met mijn medestudenten. 
+                Hierdoor kreeg ik ook niet echt mee hoe het er bij andere projectgroepen voorstond etc. 
+                Daarom heb ik met drie medestudenten, Joep Adema, Marc Franken en Mirja Vink, zo nu en dan een meeting gehouden 
+                waarin we elkaar vertelden hoe het ervoor stond en waar anderen eventueel nog aan zouden kunnen denken bij het project. 
+                Er werden verschillende tips uitgewisseld. 
+            </p>
+            <p>
+                <h3><b>Netwerken</b></h3>
+             </p>
+             <p>
+                Naast het teamwork is er natuurlijk ook sprake van netwerken. Hieronder valt voor mij het maken van n
+                ieuwe contacten en deze contacten ‘behouden’. Zo heb ik mijn medestudenten, docenten en de opdrachtgevers 
+                toegevoegd op LinkedIn. Tevens doe ik dit bij mensen die ik tegenkom, 
+                zoals de personen die de workshops voor Business hebben gegeven etc. 
+             </p>
+             <p>
+                Ook heb ik verschillende keren mailcontact gehad met de opdrachtgever, omdat hij vragen had over een onderdeel waar ik mee bezig was. 
+                Ik heb mijn best gedaan de vragen van de opdrachtgever te beantwoorden en bij vragen of onduidelijkheden heb ik het meteen laten weten. 
+             </p>
+             <p>
+                Dit doe ik ook als ik een vraag heb over een bepaald onderdeel van een workshop of het portfolio. 
+                Dan mail ik namelijk ook, waarbij er bijvoorbeeld een meeting wordt ingelast of ik reactie terugkrijg via een mail. 
+                Op deze manier kom ik steeds verder en probeer ik aan mijn competenties te voldoen. 
+                Ik kan namelijk beter iets vragen als ik ergens niet uit kom, dan dat ik zelf maar blijf kijken en ik het maar niet begrijp. 
+                De expertise van een andere persoon kan namelijk veel uitmaken, zo is gebleken. 
+                Om deze reden en het verkrijgen van nieuwe inzichten heb ik 8 december ook een meeting gehad met Witek ten Hove, om te kijken hoe het ervoor stond met mijn portfolio en wat er nog zou kunnen verbeteren.
+             </p>
+
+
+           
+
+            <br>
+            <a href="start.html" class="go-back-btn"><i class="fa fa-home"></i> Ga terug naar 'Smart Start'</a>
+
+            <a href="start6.html" class="go-back-btn">Ga terug naar vorige pagina</a>
+
+            <br><br>
+
+        </article>
+
+    </section>
+
+
+
+</body>
+</html>
