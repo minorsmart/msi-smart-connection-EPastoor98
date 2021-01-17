@@ -272,4 +272,106 @@ article#main-col2{
     color: #fff;
   }
 
+.contact-btn{
+    background-image: linear-gradient(to right, #029416, #11da76);
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #fff;
+    border: none! important;
+  }
+
+.contact-btn:hover{
+    background-image: linear-gradient(to right, #006435, #2fa376);
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1600;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    padding-bottom: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: scroll;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+  }
+  /* Modal Content (Image) */
+  
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+  }
+  
+
+  /* The Close Button */
+  
+  .close {
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .close:hover,
+  .close:focus {
+    color: #755378;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal2 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1600;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    padding-bottom: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: scroll;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+  }
+  /* Modal Content (Image) */
+  
+  .modal-content2 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+  }
+
  
+  
