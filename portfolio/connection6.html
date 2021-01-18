@@ -10,11 +10,10 @@
     <script src="pf.js"></script>
 
     <title>Master Class Machine Learning</title>
-    <script async src="https://unpkg.com/ml5@0.1.3/dist/ml5.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Days+One|Roboto&display=swap" rel="stylesheet">
 
-    <script src="https://unpkg.com/ml5@0.6.0/dist/ml5.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
 
 
 </head>
@@ -43,15 +42,18 @@
           <div id="main-title2">
               <br>
              <h3>Neural Network: Airplane</h3>
+             </div>
 
              <p>
-                 Uitleg
+               Hier vindt u een voorbeeld van een neural network, waarbij een systeem aan de hand van de foto kan bepalen wat het is. 
+                 Als u op de blauwe knop met "Detect Objects" klikt, zal worden aangegeven wat er op de afbeelding staat en met welke waarschijnlijkheid dit is. 
+                 Het is mogelijk dat u heel even moet wachten voordat het resultaat bekend wordt. 
              </p>
 
              <div class="card mx-5">
                 <h5 class="card-header text-center">Voorbeeld</h5>
                 <img src="https://img.huffingtonpost.com/asset/5d82882824000012277db515.jpeg?cache=0hXNVkixJk&ops=1778_1000" 
-                class="card-img-top img-fluid mx-auto d-block" id="image-connection6" crossorigin="anonymous">
+                class="card-img-top img-fluid mx-auto d-block" id="image" crossorigin="anonymous">
                 <div class="card-body text-center">
                   <blockquote class="blockquote">
                     <p class="mb-0">The MobileNet model labeled this as
@@ -66,32 +68,7 @@
                 </div>
                 
                 <script>
-                document.addEventListener("DOMContentLoaded", function() {
-                var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
                 
-                if ("IntersectionObserver" in window) {
-                let lazyImageObserver = new IntersectionObserver(function(
-                entries,
-                observer
-                ) {
-                entries.forEach(function(entry) {
-                if (entry.isIntersecting) {
-                let lazyImage = entry.target;
-                lazyImage.src = lazyImage.dataset.src;
-                lazyImage.srcset = lazyImage.dataset.srcset;
-                lazyImage.classList.remove("lazy");
-                lazyImageObserver.unobserve(lazyImage);
-                }
-                });
-                });
-                
-                lazyImages.forEach(function(lazyImage) {
-                lazyImageObserver.observe(lazyImage);
-                });
-                } else {
-                // Possibly fall back to a more compatible method here
-                }
-                });
                 function myClassifier() {
                 // The image we want to classify
                 const image = document.querySelector("#image");
@@ -111,8 +88,8 @@
                 // This will return an array with a default of 10 options with their probabilities
                 classifier.predict(image, function(err, results) {
                 console.table(results);
-                result.innerText = results[0].className;
-                probability.innerText = results[0].probability.toFixed(4);
+                result.innerText = results[0].label;
+                probability.innerText = results[0].confidence.toFixed(4);
                 button.innerText = "Detect Objects";
                 });
                 }
@@ -136,3 +113,5 @@
            <a href="connection.html" class="go-back-btn"><i class="fa fa-home"></i> Ga terug naar 'Smart Connection'</a>
            
            <a href="connection5.html" class="go-back-btn">Ga terug naar vorige pagina</a>
+
+           <a href="connection7.html" class="go-forward-btn">Ga naar volgende pagina</a>
