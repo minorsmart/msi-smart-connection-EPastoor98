@@ -373,35 +373,3 @@ article#main-col2{
     border-radius: 20px;
   }
 
-  article { width: 80%; }
-  @media screen and (min-width: 1441px) { 
-      article { width: 65%; }
-  }
-  @media screen and (max-width: 800px) {
-      article { width: 95%; } 
-  }
-  
-  .navbar { width: 80%; }
-  @media screen and (min-width: 1441px) { 
-      .navbar  { width: 65%; }
-  }
-  @media screen and (max-width: 800px) {
-      .navbar { width: 95%; } 
-  }
-
-  .navbar2 { width: 80%; }
-  @media screen and (min-width: 1441px) { 
-      .navbar2  { width: 65%; }
-  }
-  @media screen and (max-width: 800px) {
-      .navbar2 { width: 95%; } 
-  }
-
-  .container { width: 80%; }
-  @media screen and (min-width: 1441px) { 
-      .container  { width: 65%; }
-  }
-  @media screen and (max-width: 800px) {
-      .container { width: 95%; } 
-  }
-  
