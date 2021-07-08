@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conttent="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            font-family: 'Montserrat';
+            text-align: justify;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: pink;
+            color: aliceblue;
+        }
+
+        
+        .single-blog
+        {
+            box-shadow: 0px 0px 20px 1px rgba(0,0,0,0,2);
+            padding:10px;
+            margin-top: 30px;
+            background-color:blue;
+        }
+
+        .single-blog img{
+            width: 100%
+        }
+
+        .blog-meta{
+            font-size: 14px;
+            margin-bottom: 2px;
+        }
+
+        .single-blog span
+        {
+            float: right;
+            font-size: 12px;
+            color: cornflowerblue;
+        }
+
+        .text{
+            font-size:24px;
+        }
+
+        .single-blog h2
+        {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #007bff;
+        }
+
+        .single-blog h2 a
+        {
+            text-decoration: none;
+
+        }
+
+        .moreText{
+            display: none;
+        }
+
+        .read-more-btn{
+            padding: 15px 60px;
+            background-color: white;
+            color: black;
+            border: none;
+            outline: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .text.show-more .moreText{
+            display: inline;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="single-blog">
+                <p class="blog-meta">By Admin <span>September 24, 2018</span></p>
+                <img src="uitproberen2.jpg">
+                <h2><a href="#">Learn how to make a website</a></h2> 
+    <h1>Hello world</h1>
+    <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptates culpa reprehenderit corporis dolor illo possimus, 
+    ullam laboriosam libero labore. Dolor aperiam magni quos quis vel perspiciatis voluptatibus sequi vitae? 
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, officia, cum voluptatem esse expedita 
+    praesentium maiores doloribus, tempore est illo aspernatur ad quisquam! Voluptates dicta, 
+    nobis corporis deleniti fugiat eos?
+    Lorem ipsum dolor <span class="moreText">, sit amet consectetur adipisicing elit. 
+    Nostrum doloribus libero quidem velit beatae fugiat placeat molestias praesentium quibusdam 
+    possimus ipsam esse nesciunt repudiandae harum vel, soluta, deserunt saepe enim?        
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quae numquam 
+    suscipit repudiandae, repellat nulla odit neque aperiam maxime aut placeat vel aliquam distinctio tempore, 
+    ab explicabo, non expedita voluptate?
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    Odit sint sequi fuga illo voluptate? Voluptas reiciendis voluptatum inventore doloremque quas, 
+    ullam ducimus commodi nisi enim officia ad rerum eligendi itaque!
+    </span></p>
+    <button class="read-more-btn"></button>
+
+    <script>
+     const readMoreBtn = document.querySelector('.read-more-btn');
+     const text = document.querySelector('.text');
+
+     readMoreBtn.addEventListener('click',(e)=>{
+          text.classList.toggle('show-more');
+        if(readMoreBtn.innerText === 'Read More'){
+            readMoreBtn.innerText = 'Read Less';
+         }else{
+             readMoreBtn.innerText = 'Read More';
+         }
+     }) 
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/pf.css">
+    <script src="pf.js"></script>
+    
+     <link rel="icon" href="CSS/icon.JPG" type="image/jpg" sizes="16x16">
+
+</head>
+
+
+<body>
+    <header>
+        <nav>
+       <div id="navbar2">
+       <ul>
+       <li><a href="index.html">HOME</a></li>
+       <li><a href="start.html">SMART START</a></li>
+       <li><a href="business.html">SMART BUSINESS</a></li>
+       <li><a href="connection.html">SMART CONNECTION</a></li>
+       <li class= "current"><a href="technology.html">SMART TECHNOLOGY</a></li>
+       <li><a href="project.html">SMART PROJECT</a></li>
+       <li><a href="overmij.html">OVER MIJ</a></li>
+       </ul>
+       </div>
+      </nav>
+     </div>
+    </header>
+
+    <section id= "main2">
+        <article id="main-col2">
+          <div id="main-title2">
+             <h2>Part Two: Sensors and Actuators</h2>
+           </div>
+           <p>
+               In de tweede les was het doel de andere sensoren aan te sluiten op de ESP. 
+               De onderdelen dit dit keer aan bod komen zijn:
+               <li>Soil Moisture Sensor</li>
+               <li>DHT Sensor</li>
+               <li>LDR</li>
+               <li>Transmitter</li>
+               <li>Relay</li> 
+           </p>
+           <p>
+               <h3>Monitoring Soil Moisture</h3> 
+           </p>
+           <p>
+                Allereerst wordt de vochtsensor gebruikt om het watergehalte van de bodem te monitoren.
+                Hierdoor kan straks beslit worden wanneer de pomp aangezet moet worden om de plant water te geven.
+                Zoals te zien is veranderd de vochtigheid op het moment dat je je hand om de Moisture Sensor houdt. 
+                Op het moment dat deze sensor gebruikt zou worden bij de plant, dan zouden de waarden veranderen
+                met dat de vochtigheid veranderd.
+           </p>
+           <p>
+            <div id="video">
+                <video width="320" height="240" controls> 
+                <source src="CSS/Moisture.MOV"></video>  
+           </p>
+           <p>
+               <h3>Controlling the relay</h3>
+           </p>
+           <p>
+               Om de vochtigheid van de grond ook te kunnen beheersen, 
+               wordt er gebruik gemaakt van een pomp. Met deze pomp kan de 
+               plantbewatering worden geautomatiseerd. Deze pomp wordt bestuurd 
+               door een motoraandrijving, welke hieronder is weergegeven.
+            </p>
+           <p>
+            <div id="video">
+                <video width="320" height="240" controls> 
+                <source src="CSS/relay.MOV"></video> 
+           </p>
+           <p>
+                Zoals te horen is volgen er twee kliks achter elkaar. De eerste betekent dat de pomp aan zou staan,
+                en de tweede dat die weer uitgaat. In onderstaande video wordt dat kort duidelijk. Tevens zie je
+                tussendoor getallen, dit omdat naast de relay ook de moisture sensor is aangesloten en dit dus ook wordt gemeten 
+                op de achtergrond.
+           </p>
+           <p>
+            <div id="video">
+                <video width="320" height="240" controls> 
+                <source src="CSS/relay scherm.MOV"></video> 
+           </p>
+           <p>
+               <h3>Integrating the DHT (Ditital temperature/humidity) sensor</h3>
+           </p>
+           <p>
+               De DHT-sensor werkt door een meting uit te voeren en daarna
+               de resultaten naar de ESP32 te sturen. Wat gemeten wordt is, zoals de naam doet vermoeden,
+               zowel de vochtigheid als de temperatuur. De vochtigheid wordt in procenten weergegeven en 
+               de temperatuur in graden Celsius. 
+           </p>
+           <p>
+                <img src="CSS/DHT sensor.jpg" width="500" height="500">
+                <img src="CSS/DHT scherm.jpg" width="400" height="500">
+           </p>
+           <p>
+               <h3>Switching the klinkaanklikuit</h3>
+           </p>
+           <p>
+               Om het licht boven een plant te kunnen controleren, kan er gebruik gemaakt wordden
+               van een klikaanklikuit. Dat is in dit geval een stopcontacht wat bij bepaalde 
+               waarden aan of uit gaat. Om dit voor elkaar te krijgen, dient de <b>RF Transmitter</b>
+               aangesloten te worden op de ESP32. 
+           </p>
+           <p>
+               Aansluiting RF Transmitter aan de ESP32
+               <img src="CSS/Transmitter.jpg" width="500" height="500">
+            </p>
+            <p>
+                Klikaanklikuit in werking
+                <div id="video">
+                    <video width="320" height="240" controls> 
+                    <source src="CSS/Klikaanklikuit.MOV"></video> 
+            </p>
+            <p>
+                <h3>Blynk App</h3>
+            </p>
+            <p>
+                Tot slot heb ik bovenstaande sensoren gekoppeld aan de Blynk-app. Op deze app kon ik de sensoren bedienen (aan of uit doen) en waren de waardes af te lezen.
+                Dit laatste is hieronder te zien.
+            </p>
+            <p>
+                <img src="CSS/blynk.PNG" width="150" height="300">
+            </p>
+
+
+
+            <br>
+
+            <a href="technology.html" class="go-back-btn"><i class="fa fa-home"></i> Ga terug naar 'Smart Technology'</a>
+
+            <a href="technology1.html" class="go-back-btn">Ga terug naar vorige pagina</a>
+
+            <a href="technology4.html" class="go-forward-btn">Ga naar volgende pagina</a>
+
+            <br><br>
+
+        </article>
+    </section>

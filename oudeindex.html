@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="pf.js"></script>
+
+    <style>
+
+        header ul{
+            margin:0;
+            padding:0;
+        }
+
+        header li{
+            float: left;
+            display: inline;
+            padding: 0;
+            padding-left:3px;
+            padding-top:10px;
+            padding-bottom:10px;
+        }
+
+        #navbar{
+            background-color: rgb(214, 214, 240);
+            box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+            position: fixed;
+            float: right;
+            top: 20;
+            width: 67%;
+            padding-top:40px;
+        }
+
+        #navbar a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 8px;
+            text-decoration: none;
+        }
+
+        #navbar a:hover {
+            text-decoration:underline;
+        }
+
+        aside#sidebar{
+            float:right;
+            width:30%;
+            height:100%;
+            margin-top:0;
+            padding-top:0;
+            padding-right:23px;
+        }
+
+        article#main-col{
+            float:left;
+            width:50%;
+            padding-left:60px;
+        }
+
+        #main-title{
+            padding-top:30px;
+            color: rgb(34, 34, 80);
+        }
+
+        #main{
+            padding-top:60px;
+        }
+
+        #navbar2{
+            background-color: rgb(214, 214, 240);
+            box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+            position: fixed;
+            float: right;
+            top: 20;
+            width: 100%;
+            padding-top:40px;
+        }
+
+        #navbar2 a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 8px;
+            text-decoration: none;
+        }
+
+        #navbar2 a:hover {
+            text-decoration:underline;
+        }
+
+        header .current{
+            text-decoration: underline;
+        }
+
+        .single-blog{
+            box-shadow:0px 0px 20px 1px rgba(0,0,0,0.2);
+            padding:10px;
+            margin-top:30px;
+            background-color:#fff;
+        }
+
+        .single-blog img{
+            width:100%;
+        }
+
+        .blog-meta{
+            font-size:14px;
+            margin-bottom:2px;
+        }
+
+        .single-blog span{
+            float:right;
+            font-size:12px;
+            color:grey;
+        }
+
+        .blog-text{
+            font-size:14px;
+            text-align:justify;
+        }
+
+        .single-blog h2{
+            margin-top:10px;
+            font-size:16px;
+            color:black;
+        }
+
+        .single-blog a{
+            text-decoration:none;
+        }
+
+    </style>
+ </head>
+<body>
+    <header>
+                 <nav>
+                <div id="navbar2">
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li class= "current"><a href="start.html">SMART START</a></li>
+                <li><a href="business.html">SMART BUSINESS</a></li>
+                <li><a href="connection.html">SMART CONNECTION</a></li>
+                <li><a href="technology.html">SMART TECHNOLOGY</a></li>
+                <li><a href="project.html">SMART PROJECT</a></li>
+                </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+  
+  <div class="container">
+  
+   <br><br><br><br>
+  
+      <div class="row">
+        <div class="col-md-4">
+          <div class="single-blog">
+            <p class="blog-meta">By Eline Pastoor <span>September 6, 2020</span></p>
+            <img src="CSS/start2.jpg">
+            <h2><a href="start1.html" style="color:black;">Blog: 'Kruispunten Smart Industry en Bedrijfskunde'</a></h2>
+            <p class="blog-text">Zijn er wel overeenkomsten tussen de minor Smart Industry en de opleiding Bedrijfskunde? 
+              En wat zijn de verschillen? Hier vindt u de blog die ik geschreven heb, waarin ik mijn kijk geef over de 
+              raakvlakken en verschillen tussen de minor en mijn opleiding. 
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-blog">
+            <p class="blog-meta">By Eline Pastoor <span>September 28, 2020</span></p>
+            <img src="CSS/start1.jpg">
+            <h2><a href="start2.html" style="color:black">Artikel: 'Co-design'</a></h2>
+            <p class="blog-text">Hier vindt u het artikel dat ik geschreven heb over co-creatie. Het begrip wordt kort uitgelegd,
+              waarna het toegepast wordt op twee vraagstukken. Vervolgens hebben een medestudent en ik elkaar hierover vragen gesteld. 
+              Dit interview is uitgetypt en ook bijgevoegd. 
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-blog">
+            <p class="blog-meta">By Eline Pastoor <span>Oktober 4, 2020</span></p>
+            <img src="CSS/podcast.jpg">
+            <h2><a href="start3.html" style="color:black;">Podcast: 'Platform Business Model'</a></h2>
+            <p class="blog-text">Samen met een medestudent heb ik onderzoek gedaan naar het Platform Business Model. 
+              Hierop hebben we elkaar middels een podcast geïnterviewd en de bevindingen met elkaar gedeeld. 
+            </p>
+          </div>
+        </div>
+        </div>
+        
+        <br>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="single-blog">
+              <p class="blog-meta">By Eline Pastoor <span>Oktober 1, 2020</span></p>
+              <img src="CSS/research.jpg">
+              <h2><a href="start4.html" style="color:black;">Smart Research</a></h2>
+              <p class="blog-text">Hier vindt u het huidige weer in Arnhem.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-blog">
+              <p class="blog-meta">By Eline Pastoor <span>Oktober 1, 2020</span></p>
+              <img src="CSS/communication.jpg">
+              <h2><a href="start5.html" style="color:black;">Smart Communication</a></h2>
+              <p class="blog-text">Hier vindt u een update van de Covid-19 cijfers.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-blog">
+              <p class="blog-meta">By Eline Pastoor <span>Oktober, 2020</span></p>
+              <img src="CSS/me.jpg">
+              <h2><a href="start6.html" style="color:black;">Smart Me</a></h2>
+              <p class="blog-text">Ik heb persoonlijke leerdoelen opgesteld en een SWOT-analyse over mezelf gemaakt. 
+                Aan de hand hiervan hoop ik de minor voor mijzelf nog meer betekenis te kunnen geven. 
+              </p>
+            </div>
+          </div>  
+      </div> 
+    </div>
+
+    <br><br>
+  
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+  <a target="_blank" href="https://facebook.com/sharer/sharer.php?u=https://minorsmart.github.io/msi-smart-connection-EPastoor98/portfolio/index.html&t=Website Portfolio Eline Pastoor" class="a2a_dd" href="https://www.addtoany.com/share"></a>
+  <a target="_blank" href="https://facebook.com/sharer/sharer.php?u=https://minorsmart.github.io/msi-smart-connection-EPastoor98/portfolio/index.html&t=Website Portfolio Eline Pastoor" class="a2a_button_facebook"></a>
+  <a class="a2a_button_twitter"></a>
+  <a class="a2a_button_email"></a>
+  <a class="a2a_button_copy_link"></a>
+  <a class="a2a_button_outlook_com"></a>
+  <a class="a2a_button_whatsapp"></a>
+  <a class="a2a_button_linkedin"></a>
+  </div>
+  <script async src="https://static.addtoany.com/menu/page.js"></script>
+  <!-- AddToAny END -->
+
+
+</body>
+</html>
